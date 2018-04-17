@@ -1,0 +1,86 @@
+*.py[cod]
+*.*~
+
+# C extensions
+*.so
+
+# Packages
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+tpe/static
+tpe/reports
+tpe/logs
+tpe/data
+tpe/tools
+.idea
+tpe/tpe/settings/local.py
+tpe/environment.json
+client/node_modules
+platform/node_modules
+seerene-client/node_modules
+e2e/node_modules
+e2e/reports/out.json
+e2e/specs/*
+
+# Installer logs
+pip-log.txt
+
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# Mr Developer
+.mr.developer.cfg
+.project
+.pydevproject
+
+# Generated HTML files
+tpe/templates/new_app/de
+tpe/templates/new_app/en
+tpe/templates/new_app/zh-hans
+
+# Generated CSS files
+client/css
+
+# Django MEDIA_ROOT folder
+client/media_upload
+
+# Translation related stuff
+zz/
+template.pot
+zz.po
+
+# Acceptance test related stuff
+tpe/acceptance_test/stellar.yaml
+tpe/acceptance_test/workspace
+
+# vim
+.*.swp
+*~
+
+# Visual Studio Code
+.vscode
+
+# Ignore Mac DS_Store files
+.DS_Store
+
+seerene-client/src/index_tmp.html
+npm-debug.log
+
+#virtual
+.venv/
