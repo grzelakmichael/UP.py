@@ -20,4 +20,4 @@ turtle.penup()
 turtle.goto((x1 + x2) / 2, (y1 + y2) / 2)
 turtle.write(distance)
 
-turtle.done() 
+turtle.done()
